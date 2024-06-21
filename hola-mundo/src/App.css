@@ -1,0 +1,50 @@
+.tw-follow-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.tw-follow-card:hover {
+    background: #1a1a1a;
+    border-radius: 2rem;
+}
+
+.tw-perfile {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.tw-perfile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.tw-perfile-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-perfile-description strong {
+    font-size: 15px;
+}
+
+.tw-perfile-description span {
+    font-size: 13px;
+}
+
+.tw-button-follow {
+    border: 0;
+    padding: .3rem 1.1rem;
+    background: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.tw-button-follow a {
+    text-decoration: none;
+    color: #111;
+}
