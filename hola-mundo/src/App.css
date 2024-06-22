@@ -42,6 +42,19 @@
     font-weight: bold;
     border-radius: 1rem;
     cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+.tw-button-follow:hover {
+    background: #48e;
+}
+
+.tw-button-follow.is-following {
+    border: 1ps solid rgb(212, 42, 42);
+}
+
+.tw-button-follow.is-following:hover {
+    background: rgb(212, 42, 42);
 }
 
 .tw-button-follow a {
