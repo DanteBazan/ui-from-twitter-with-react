@@ -11,6 +11,9 @@ export function App() {
             <TwitterFollowCard userName="soydalto">
                 Lucas Dalto
             </TwitterFollowCard>
+            <TwitterFollowCard userName="kheayoungflex">
+                Khea
+            </TwitterFollowCard>
         </section>
     )
 }

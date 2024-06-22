@@ -14,7 +14,7 @@ export function TwitterFollowCard({ children, userName, }) {
     // const setFollowing = state[1];
 
     const handleClick = () => {
-        setFollowing(!isFollowing)
+        setFollowing(!isFollowing);
     }
 
     return (
